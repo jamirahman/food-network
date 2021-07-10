@@ -99,14 +99,13 @@ body{
 
 }
 
-#recipe-section{
+.recipe-container{
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 .recipe-item{
-   border: solid 0px grey;
    border-radius: 25px;
    margin-left: 20px;
    margin-right: 20px; 
@@ -124,4 +123,43 @@ body{
 .recipe-item p{
     font-size: 14px;
     color: rgb(75, 70, 70);
+}
+
+.profile-container{
+    width: 87%;
+    margin-top: 100px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    box-shadow: 10px -10px 40px #CCC;
+    border-radius: 25px;
+
+}
+.profile-item h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.profile-item p{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(75, 70, 70);
+}
+.profile-item{
+   margin-left: 120px;
+}
+
+.foot-note{
+    background-color: rgb(10, 9, 9);
+    text-align: center;
+    color: rgb(75, 70, 70);
+    margin-top: 70px;
+    padding-top: 25px;
+}
+.foot-note p{
+    color: honeydew;
+    font-size: 14px;
+}
+
+.foot-note footer{
+    margin-top: 60px;
+    padding-bottom: 30px;
 }
