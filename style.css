@@ -98,3 +98,30 @@ body{
     color: gray;
 
 }
+
+#recipe-section{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.recipe-item{
+   border: solid 0px grey;
+   border-radius: 25px;
+   margin-left: 20px;
+   margin-right: 20px; 
+   box-shadow: 10px -10px 40px #CCC;
+}
+.recipe-item img{
+    margin: auto;
+    width: 100%;
+}
+.recipe-item h3{
+    color: black;
+    padding-top: 20px;
+}
+
+.recipe-item p{
+    font-size: 14px;
+    color: rgb(75, 70, 70);
+}
