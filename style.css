@@ -1,0 +1,88 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.flex-container{
+    margin-top: 40px;
+    display: flex;
+  
+}
+
+.half-width{
+    padding: 2%;
+    width: 50%;
+}
+
+.half-width img{
+    width: 85%;
+}
+
+#intro{
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+#intro h1{
+    font-size: 45px;
+    color: rgb(75, 70, 70);
+}
+#intro p{
+    color: gray;
+    padding-right: 100px;
+}
+.orange-color{
+    color: rgb(243, 140, 6);
+}
+.link-button{
+    display: inline-block;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-image: linear-gradient(to right, orange, red);
+    border-radius: 30px;
+}
+
+.top-banner{
+    background-image: url(images/top-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+#mid-banner.flex-container{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: url(images/mid-banner.png);
+    background-position: right;
+
+}
+
+#about-girl img{
+    width: 45%;
+    margin-top: 10px;
+    padding: 5% 25%;
+}
+
+#about-me{
+    margin:auto;
+}
+
+#about-me h2{
+    color: gray;
+}
+
+#about-me p{
+    margin-top: 5%;
+    margin-right: 30%;
+}
+
+#about-me .link-button{
+    margin-top: 50px;
+    width: 90px;
+}
