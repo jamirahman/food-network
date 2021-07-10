@@ -86,3 +86,15 @@ body{
     margin-top: 50px;
     width: 90px;
 }
+.recipe{
+    margin: 5% 20% 0 20%;
+    text-align: center;
+}
+.recipe h2{
+    color: rgb(75, 70, 70);
+}
+.recipe p{
+    padding-top: 10px;
+    color: gray;
+
+}
